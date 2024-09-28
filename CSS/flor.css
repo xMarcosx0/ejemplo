@@ -1,0 +1,57 @@
+body {
+    background-color: #F2E9E4; /* Color de fondo */
+    font-family: Arial;        /* Tipo de letra */
+    margin: 0;
+}
+
+header {
+    text-align: center; /* Centrados */
+    background-color: #013440;
+    color: #659AA6;
+    padding: 1%;
+}
+
+.Menuh {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0c6872;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.Menuh b {
+    color: #013440;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Menuh b:hover {
+    background-color: #659AA6;
+    color: white;
+}
+
+.content {
+    text-align: center; /* Centramos todo el contenido */
+    padding: 20px;
+}
+
+.welcome-message {
+    position: absolute;
+    left: 10px; /* Ajusta según tu preferencia */
+    top: 30px; /* Ajusta según tu preferencia */
+    color: #fff; /* Color del texto */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.pie { 
+    text-align: center; /* centrado */
+    background-color: #013440;
+    color: #659AA6;
+    padding: 10px;
+}
